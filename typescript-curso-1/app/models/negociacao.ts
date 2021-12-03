@@ -17,9 +17,4 @@ export class Negociacao
         this.Valor = valor;
     }
 
-    public setQuantidade(quantidade: number) : {
-
-
-    }
-
 }
