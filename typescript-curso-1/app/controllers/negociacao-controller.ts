@@ -23,15 +23,14 @@ export class NegociacaoController{
         var quantidade = parseInt(this._inputQuantidade.value);
         var valor = parseFloat(this._inputValor.value);
 
-
         return new Negociacao(data,quantidade,valor);
     }
 
     private LimpaFormulario() : void 
     {
         this._inputData.value = '';
-        this._inputQuantidade.value = '1';
-        this._inputValor.value = '0,0';
+        this._inputQuantidade.value = '';
+        this._inputValor.value = '';
         this._inputData.focus();
     }
 }

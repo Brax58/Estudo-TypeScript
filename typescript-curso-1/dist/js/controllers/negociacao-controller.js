@@ -17,8 +17,8 @@ export class NegociacaoController {
     }
     LimpaFormulario() {
         this._inputData.value = '';
-        this._inputQuantidade.value = '1';
-        this._inputValor.value = '0,0';
+        this._inputQuantidade.value = '';
+        this._inputValor.value = '';
         this._inputData.focus();
     }
 }
